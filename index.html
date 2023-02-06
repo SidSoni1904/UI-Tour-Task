@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>UI-task</title>
+  </head>
+  <body>
+    <!-- start main page -->
+    <div class="container">
+      <!-- first page -->
+      <div class="col first-nav">
+        <div class="row-1">
+          <!-- first nav start -->
+          <div class="row">
+            <div class="col-6">
+              <!-- mobile -->
+              <div class="row">
+                <div class="col-5 mobile">
+                  <img src="./images/header/phone.png" alt="phone" />
+                  <span>+11 123 456 7890</span>
+                </div>
+                <!-- email -->
+                <div class="col-7 email">
+                  <img src="./images/header/emails.png" alt="email" />
+                  <span>info@tourism.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-5 jk">
+                  <img
+                    src="./images/header/instagrams.png"
+                    alt="insta"
+                    id="insta"
+                  />
+                  <img src="./images/header/fb.png" alt="fb" id="fb" />
+                  <img
+                    src="./images/header/twitter.png"
+                    alt="twit"
+                    id="twitter"
+                  />
+                  <span id="line">|</span>
+                </div>
+                <div class="col-2 world">
+                  <img src="./images/header/world.png" alt="world" />
+                  <select name="" class="lang">
+                    <option value="EN" selected>EN</option>
+                    <option value="GUJ">GUJ</option>
+                    <option value="HINDI">HINDI</option>
+                  </select>
+                </div>
+                <div class="col-5 lj">
+                  <img
+                    src="./images/header/person-photo.png"
+                    alt="person"
+                    id="person"
+                    height="22px"
+                  />
+                  <select name="" class="login">
+                    <option value="Sign up" selected>Sign up</option>
+                    <option value="Sign in">Sign in</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end first nav -->
+        </div>
+        <div class="row-1 newbie">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="./images/header/mains-logo.png"
+                alt="logo"
+                height="45px"
+                width="80px"
+                id="logoimg"
+              />
+            </div>
+            <div class="col-6 menus">
+              <ul class="uy">
+                <li>Home</li>
+                <li>
+                  <select id="submenu">
+                    <option value="Travel Packages" selected>
+                      Travel Packages
+                    </option>
+                  </select>
+                </li>
+                <li>
+                  <select id="submenu">
+                    <option value="Top Destination" selected>
+                      Top Destination
+                    </option>
+                  </select>
+                </li>
+                <li>
+                  <select id="submenu">
+                    <option value="Travel Attraction" selected>
+                      Travel Attraction
+                    </option>
+                  </select>
+                </li>
+                <li>
+                  <select id="submenu">
+                    <option value="Travel Agents" selected>
+                      Travel Agents
+                    </option>
+                  </select>
+                </li>
+                <li>
+                  <select id="submenu">
+                    <option value="Hotels" selected>Hotels</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2 kk">
+              <span id="searchline">|</span>
+              <img
+                src="./images/header/search.png"
+                alt="search"
+                class="serach"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row-10">
+          <div class="row">
+            <div class="col-5 place">
+              <span id="bali">BALI</span>
+              <p id="lorem">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+              <input
+                type="button"
+                value="Book the trip"
+                id="btnbook"
+                placeholder=""
+              />
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-12 m-auto">
+                  <div class="owl-carousel owl-theme carousel">
+                    <div class="item mb-4 slideritems">
+                      <div class="row">
+                        <span id="slidernames">Broken Beach,Bali</span>
+                        <div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card border-0 shadow">
+                        <img
+                          src="./images/broken.png"
+                          alt=""
+                          class="card-img-top"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="item slideritems">
+                      <div class="row austria">
+                        <span id="slidernames">Sankt Gilgen, Austria</span>
+                        <div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card border-0 shadow">
+                        <img
+                          src="./images/austria.png"
+                          alt=""
+                          class="card-img-top"
+                        />
+                      </div>
+                    </div>
+                    <div class="item slideritems">
+                      <div class="row diamond">
+                        <span id="slidernames">Diamond Beach, Indonesia</span>
+                        <div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                          <div class="circle">
+                            <i class="fa-solid fa-circle"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card border-0 shadow">
+                        <img
+                          src="./images/diamond-beach.png"
+                          alt=""
+                          class="card-img-top"
+                          id="diamond"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <input type="button" value="<" id="sliderbackbtn" />
+                <input type="button" value=">" id="sliderforwardbtn" />
+                <span id="slidernumbering">01_____04</span>
+                <!-- <button id="backward">></button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end first page -->
+
+      <!-- second page  -->
+
+      <!-- End second page -->
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 second-page-left">
+          <img
+            src="./images/second-page/second-page-world-plan.png"
+            alt="world-plan"
+            id="world-plan"
+          />
+          <h1 id="trip-plan">Planning a Trip?</h1>
+          <p id="trip-desc">
+            The company name is a coming together of stakeholders who have a
+            passion for sustainably developing the tourism industry in the
+            World. In addition to its core functions of innovation,
+            sustainability, and collaboration, the Alliance is also focused on
+            training and development initiatives, promoting industry employment
+            opportunities, and introducing data for better tourism development
+            and promotion.
+          </p>
+          <button id="btn-trip-plan">Plan a Trip</button>
+        </div>
+        <div class="col-8 second-page-right">
+          <!-- second page card image -->
+          <div class="row">
+            <div class="col-md-4 fromcard1">
+              <div class="card rounded-4 mycard card1">
+                <div class="inner">
+                  <img
+                    src="./images/second-page/maruitius.png"
+                    alt="maruitius"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">MARUITIUS</h5>
+                  <p class="card-text">15 Packages Available</p>
+                  <p id="starting-from">
+                    Starting from <span id="price">$500</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded-4 mycard">
+                <div class="inner">
+                  <img src="./images/second-page/dubai.png" alt="dubai" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">DUBAI</h5>
+                  <p class="card-text">25 Packages Available</p>
+                  <p id="starting-from">
+                    Starting from <span id="price">$700</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 cardafrica">
+              <div class="card rounded-4 mycard card3">
+                <div class="inner">
+                  <img
+                    src="./images/second-page/south-africa.png"
+                    alt="maruitius"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">SOUTH AFRICA</h5>
+                  <p class="card-text">12 Packages Available</p>
+                  <p id="starting-from">
+                    Starting from <span id="price">$800</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded-4 mycard">
+                <div class="inner">
+                  <img src="./images/second-page/thailand.png" alt="dubai" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">THAILAND</h5>
+                  <p class="card-text">30 Packages Available</p>
+                  <p id="starting-from">
+                    Starting from <span id="price">$400</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end second page card image -->
+        </div>
+        <div class="col sec-ss"></div>
+      </div>
+      <!-- start third page -->
+      <div class="container">
+        <div class="row third-page">
+          <div class="col-8">
+            <span id="discover-trips">Discover Weekly Trips</span>
+            <button id="btnworld">
+              <img src="./images/location.png" /><select id="selectworld">
+                <option value="World" selected>World</option>
+              </select>
+            </button>
+            <br />
+            <span id="explore"
+              >Explore new travel inspiration updated every Monday</span
+            >
+          </div>
+          <div class="col-4">
+            <button id="btnleft">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button id="btnright">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+          </div>
+        </div>
+        <!-- third page cards -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-4 g-4 third-card">
+            <div class="col">
+              <div class="card rounded-4 inner">
+                <img
+                  src="./images/third-page/marina-lake.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-img-overlay">
+                  <img src="./images/third-page/book-bed.png" /><img
+                    src="./images/third-page/likelove.png"
+                    style="float: right"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span id="third-page-place">
+                      Moraine Lake <span id="third-page-card-price">$500</span>
+                    </span>
+                  </h5>
+                  <p class="card-text content-third">
+                    <span id="third-mini-content">
+                      <img src="./images/third-page/canada-logo.png" />
+                      <span id="third-card-country">Canada</span>
+                    </span>
+                    <span id="third-adults">
+                      <img src="./images/third-page/users.png" alt="adult" />
+                      <span>2 adults</span>
+                    </span>
+                  </p>
+                  <hr />
+                  <center>
+                    <span id="calender"
+                      ><img src="./images/third-page/calender.png" />Nov 25-30
+                      <img
+                        src="./images/third-page/dots.png"
+                        id="dots"
+                        alt="dot"
+                      />
+                      5 nights</span
+                    >
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded-4 inner">
+                <img
+                  src="./images/third-page/city-tours.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-img-overlay">
+                  <img src="./images/third-page/book-bed.png" /><img
+                    src="./images/third-page/likelove.png"
+                    style="float: right"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span id="third-page-place">
+                      City Tours <span id="third-page-card-price">$400</span>
+                    </span>
+                  </h5>
+                  <p class="card-text content-third">
+                    <span id="third-mini-content">
+                      <img src="./images/third-page/liver-pool.png" />
+                      <span id="third-card-country">Liver pool</span>
+                    </span>
+                    <span id="third-adults">
+                      <img src="./images/third-page/users.png" alt="adult" />
+                      <span>2 adults</span>
+                    </span>
+                  </p>
+                  <hr />
+                  <center>
+                    <span id="calender"
+                      ><img src="./images/third-page/calender.png" />Nov 25-30
+                      <img
+                        src="./images/third-page/dots.png"
+                        id="dots"
+                        alt="dot"
+                      />
+                      5 nights</span
+                    >
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded-4 inner">
+                <img
+                  src="./images/third-page/big-ben.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-img-overlay">
+                  <img src="./images/third-page/book-bed.png" /><img
+                    src="./images/third-page/likelove.png"
+                    style="float: right"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span id="third-page-place">
+                      Big Ben <span id="third-page-card-price">$500</span>
+                    </span>
+                  </h5>
+                  <p class="card-text content-third">
+                    <span id="third-mini-content">
+                      <img src="./images/third-page/london.png" />
+                      <span id="third-card-country">London</span>
+                    </span>
+                    <span id="third-adults">
+                      <img src="./images/third-page/users.png" alt="adult" />
+                      <span>2 adults</span>
+                    </span>
+                  </p>
+                  <hr />
+                  <center>
+                    <span id="calender"
+                      ><img src="./images/third-page/calender.png" />Nov 25-30
+                      <img
+                        src="./images/third-page/dots.png"
+                        id="dots"
+                        alt="dot"
+                      />
+                      5 nights</span
+                    >
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded-4 inner">
+                <img
+                  src="./images/third-page/himachal.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-img-overlay">
+                  <img src="./images/third-page/book-bed.png" /><img
+                    src="./images/third-page/likelove.png"
+                    style="float: right"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span id="third-page-place">
+                      Himachal <span id="third-page-card-price">$500</span>
+                    </span>
+                  </h5>
+                  <p class="card-text content-third">
+                    <span id="third-mini-content">
+                      <img src="./images/third-page/india-logo.png" />
+                      <span id="third-card-country">India</span>
+                    </span>
+                    <span id="third-adults">
+                      <img src="./images/third-page/users.png" alt="adult" />
+                      <span>2 adults</span>
+                    </span>
+                  </p>
+                  <hr />
+                  <center>
+                    <span id="calender"
+                      ><img src="./images/third-page/calender.png" />Nov 25-30
+                      <img
+                        src="./images/third-page/dots.png"
+                        id="dots"
+                        alt="dot"
+                      />
+                      5 nights</span
+                    >
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button id="viewall">View All</button>
+          </div>
+        </div>
+        <!-- end third page cards -->
+      </div>
+      <!-- end third page -->
+      <!-- start fourth page -->
+
+      <!-- end fourth page  -->
+    </div>
+    <div class="fourth">
+      <div class="row fourth-page-main">
+        <div class="col fourth-left">
+          <img
+            src="./images/fourth-page/ballon.png"
+            id="ballons"
+            alt="ballon"
+          />
+          <img
+            src="./images/fourth-page/mountains.png"
+            id="mountains"
+            alt="mountains"
+          />
+          <img src="./images/fourth-page/couple.png" id="couple" alt="couple" />
+          <div class="card rounded-4 fourth-support">
+            <div class="card-body">
+              <h5 class="card-title" id="supports">24/7 Support</h5>
+              <p class="card-text" id="support-text">
+                Lorem Ipsum is simply dummy text.
+              </p>
+            </div>
+          </div>
+          <div class="card rounded-4 top-destination">
+            <div class="card-body">
+              <h5 class="card-title" id="top-desc">Top Destination</h5>
+              <p class="card-text" id="topdesc-text">
+                Lorem Ipsum is simply dummy text.
+              </p>
+            </div>
+          </div>
+          <div class="card rounded-4 booking">
+            <div class="card-body">
+              <h5 class="card-title" id="booking-text">Easly Booking</h5>
+              <p class="card-text" id="booking-content">
+                Lorem Ipsum is simply dummy text.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col fourth-right">
+          <h1 id="looking">What you are looking for</h1>
+          <h5 id="looking-desc">
+            The company name is a coming together of stakeholders who have a
+            passion for sustainably developing the tourism industry in the
+            World.
+          </h5>
+          <form action="">
+            <div class="row row-cols-2">
+              <div class="col">
+                <div class="inputwithicon-1">
+                  <img src="./images/location.png" alt="loc" id="first-loc" />
+                  <input type="text" placeholder="From" id="from" required />
+                </div>
+              </div>
+              <div class="col">
+                <div class="inputwithicon-2">
+                  <img src="./images/location.png" alt="loc" id="sec-loc" />
+                  <input type="text" placeholder="To" id="to" required />
+                </div>
+              </div>
+              <div class="col">
+                <div class="inputwithicon-3">
+                  <img
+                    src="./images/third-page/calender.png"
+                    alt="cal"
+                    id="third-calc"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Add date"
+                    id="add-date"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="inputwithicon-4">
+                  <img src="./images/account.png" alt="acc" id="acc" />
+                  <input type="text" placeholder="Add travelers" required />
+                </div>
+              </div>
+
+              <button id="searchbtn">
+                <img src="./images/search-green.png" alt="search" />Search
+              </button>
+
+              <!-- </form> -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- fifth page start -->
+    <div class="container">
+      <div class="row fifth-page">
+        <div class="col-8">
+          <span id="discover-trips">Our Most Popular Trips</span>
+          <button id="btnworld">
+            <img src="./images/location.png" /><select id="selectworld">
+              <option value="World" selected>World</option>
+            </select>
+          </button>
+          <br />
+          <span id="explore"
+            >Explore new travel inspiration updated every Monday</span
+          >
+        </div>
+        <div class="col-4">
+          <button id="btnleft">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button id="btnright">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+      </div>
+      <!-- third page cards -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4 third-card">
+          <div class="col">
+            <div class="card rounded-4 inner">
+              <img
+                src="./images/third-page/marina-lake.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <img src="./images/third-page/book-bed.png" /><img
+                  src="./images/third-page/likelove.png"
+                  style="float: right"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span id="third-page-place">
+                    Moraine Lake <span id="third-page-card-price">$500</span>
+                  </span>
+                </h5>
+                <p class="card-text content-third">
+                  <span id="third-mini-content">
+                    <img src="./images/third-page/canada-logo.png" />
+                    <span id="third-card-country">Canada</span>
+                  </span>
+                  <span id="third-adults">
+                    <img src="./images/third-page/users.png" alt="adult" />
+                    <span>2 adults</span>
+                  </span>
+                </p>
+                <hr />
+                <center>
+                  <span id="calender"
+                    ><img src="./images/third-page/calender.png" />Nov 25-30
+                    <img
+                      src="./images/third-page/dots.png"
+                      id="dots"
+                      alt="dot"
+                    />
+                    5 nights</span
+                  >
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-4 inner">
+              <img
+                src="./images/third-page/city-tours.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <img src="./images/third-page/book-bed.png" /><img
+                  src="./images/third-page/likelove.png"
+                  style="float: right"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span id="third-page-place">
+                    City Tours <span id="third-page-card-price">$400</span>
+                  </span>
+                </h5>
+                <p class="card-text content-third">
+                  <span id="third-mini-content">
+                    <img src="./images/third-page/liver-pool.png" />
+                    <span id="third-card-country">Liver pool</span>
+                  </span>
+                  <span id="third-adults">
+                    <img src="./images/third-page/users.png" alt="adult" />
+                    <span>2 adults</span>
+                  </span>
+                </p>
+                <hr />
+                <center>
+                  <span id="calender"
+                    ><img src="./images/third-page/calender.png" />Nov 25-30
+                    <img
+                      src="./images/third-page/dots.png"
+                      id="dots"
+                      alt="dot"
+                    />
+                    5 nights</span
+                  >
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-4 inner">
+              <img
+                src="./images/third-page/big-ben.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <img src="./images/third-page/book-bed.png" /><img
+                  src="./images/third-page/likelove.png"
+                  style="float: right"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span id="third-page-place">
+                    Big Ben <span id="third-page-card-price">$500</span>
+                  </span>
+                </h5>
+                <p class="card-text content-third">
+                  <span id="third-mini-content">
+                    <img src="./images/third-page/london.png" />
+                    <span id="third-card-country">London</span>
+                  </span>
+                  <span id="third-adults">
+                    <img src="./images/third-page/users.png" alt="adult" />
+                    <span>2 adults</span>
+                  </span>
+                </p>
+                <hr />
+                <center>
+                  <span id="calender"
+                    ><img src="./images/third-page/calender.png" />Nov 25-30
+                    <img
+                      src="./images/third-page/dots.png"
+                      id="dots"
+                      alt="dot"
+                    />
+                    5 nights</span
+                  >
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-4 inner">
+              <img
+                src="./images/third-page/himachal.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <img src="./images/third-page/book-bed.png" /><img
+                  src="./images/third-page/likelove.png"
+                  style="float: right"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span id="third-page-place">
+                    Himachal <span id="third-page-card-price">$500</span>
+                  </span>
+                </h5>
+                <p class="card-text content-third">
+                  <span id="third-mini-content">
+                    <img src="./images/third-page/india-logo.png" />
+                    <span id="third-card-country">India</span>
+                  </span>
+                  <span id="third-adults">
+                    <img src="./images/third-page/users.png" alt="adult" />
+                    <span>2 adults</span>
+                  </span>
+                </p>
+                <hr />
+                <center>
+                  <span id="calender"
+                    ><img src="./images/third-page/calender.png" />Nov 25-30
+                    <img
+                      src="./images/third-page/dots.png"
+                      id="dots"
+                      alt="dot"
+                    />
+                    5 nights</span
+                  >
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <button id="viewall">View All</button>
+        </div>
+      </div>
+      <!-- end third page cards -->
+    </div>
+    <!-- end fifth page -->
+    <!-- sixth page start -->
+    <div class="container sixth-page">
+      <div class="row">
+        <div class="col">
+          <img
+            src="./images/sixth/green-surface.png"
+            id="greeny"
+            alt="greeny"
+          />
+          <img
+            src="./images/sixth/tourist-with-thumb.png"
+            id="thumbman"
+            alt="thumbman"
+          />
+        </div>
+        <div class="col Says">
+          <span id="testimonials">What Travelers Says About Our Platform</span>
+          <p id="test-desc">
+            “ It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here. “
+          </p>
+          <div class="row comments">
+            <img src="./images/sixth/ladywithhat.png" alt="lady" id="lady" />
+            <div class="col">
+              <div class="row">
+                <span id="test-name">Marhta John</span>
+                <span id="state">London</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end sixth page -->
+    <!-- seven page start -->
+    <div class="lastpage">
+      <div class="container seventh">
+        <div class="row seventh-bg">
+          <div class="col">
+            <h1 id="inspired">Get Inspiration for Future Trips</h1>
+            <div class="p">
+              <p>
+                <img src="./images/tickmark.png" alt="tick" />
+                <span id="dest">New trip destinations every week.</span>
+              </p>
+              <p>
+                <img src="./images/tickmark.png" alt="tick" />
+                <span id="dest">Less then 4-hour travel time</span>
+              </p>
+              <p>
+                <img src="./images/tickmark.png" alt="tick" />
+                <span id="dest">Itineraries for 2-4 night weekend.</span>
+              </p>
+              <p>
+                <img src="./images/tickmark.png" alt="tick" />
+                <span id="dest">Made just for you, by our AI engine.</span>
+              </p>
+            </div>
+            <form>
+              <input
+                type="email"
+                placeholder="Please enter your email"
+                id="inpemail"
+                required
+              />
+              <button id="btnsubmit">Submit</button>
+            </form>
+
+            <div class="card rounded-4 forcard1" style="width: 230px; height: 320.69px">
+              <img
+                src="./images/seven-maru.png"
+                class="card-img-top"
+                alt="MARUITIUS"
+              />
+              <div class="card-body">
+                <h5 class="card-title">MARUITIUS</h5>
+                <p class="card-text">15 Packages Available</p>
+              </div>
+            </div>
+            <div class="card rounded-4 forcard2" style="width: 230px; height: 320.69px">
+              <img
+                src="./images/last-girf.png"
+                class="card-img-top"
+                alt="girf"
+              />
+              <div class="card-body">
+                <h5 class="card-title">SOUTH AFRICA</h5>
+                <p class="card-text">12 Packages Available</p>
+              </div>
+            </div>
+            <div class="card rounded-4 forcard3" style="width: 230px; height: 320.69px">
+              <img
+                src="./images/lastdubai.png"
+                class="card-img-top"
+                alt="dubai"
+              />
+              <div class="card-body">
+                <h5 class="card-title">DUBAI</h5>
+                <p class="card-text">25 Packages Available</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="lastitems">
+      <div class="lasts">
+              <img src="./images/last-logo.png" alt="lastlogo" id="lastlogo"/>
+              
+              
+              <img src="./images/insta-green.png" alt="insta" id="insta-green"/>
+              <img src="./images/facebook-green.png" alt="fb" id="fb-green"/>
+              <img src="./images/twitter.png" alt="twit" id="twitter-green" />
+          
+            
+
+              <span id="copyright">Copyright © 2016 Tourism Agency</span>
+            </div>
+    </div>
+    <!-- start eigth page -->
+
+    <!-- end eigth page -->
+    <!-- end seven page -->
+    <!-- end main page -->
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      loop: true,
+      margin: 15,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+
+    owl.on("mousewheel", ".owl-stage", function (e) {
+      if (e.deltaY > 0) {
+        owl.trigger("next.owl");
+      } else {
+        owl.trigger("prev.owl");
+      }
+      e.preventDefault();
+    });
+  </script>
+  <script>
+    let slide = document.querySelectorAll(".slideritems");
+    let prev = document.getElementById("sliderbackbtn");
+    let forw = document.getElementById("sliderforwardbtn");
+    let counter = 0;
+
+    prev.addEventListener("click", () => {
+      counter--;
+      sliderimages();
+    });
+
+    forw.addEventListener("click", () => {
+      counter++;
+      sliderimages();
+    });
+
+    function sliderimages() {
+      slide.forEach((slide) => {
+        slide.style.transform = `translateX(-${counter * 105}%)`;
+      });
+    }
+  </script>
+</html>
